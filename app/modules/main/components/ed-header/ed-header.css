@@ -10,7 +10,7 @@ header {
 
 header .title {
 	font-size:1.5em;
-    padding: 0 .5em;
+    /*padding: 0 .5em;*/
     width: auto;
     display: inline-block;
 }

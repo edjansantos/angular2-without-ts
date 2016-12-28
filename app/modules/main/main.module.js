@@ -7,7 +7,8 @@
             declarations: [
                 app.MainComponent,
                 app.EdHeaderComponent,
-                app.EdIconComponent
+                app.EdIconComponent,
+                app.EdSearchBarComponent
             ],
             bootstrap: [
                 app.MainComponent
