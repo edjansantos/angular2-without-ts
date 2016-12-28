@@ -3,11 +3,7 @@ app/bower_components
 .idea
 reports
 front/node_modules
-app/assets/styles/core.css
-*layout.css
 *templates.js
-*footer.css
-*header.css
 .protractor-failed
 app/deploy/
 npm-debug.log
