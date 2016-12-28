@@ -18,13 +18,13 @@ app.use(function (req, res, next) {
     next();
 });
 
-app.get('/', function (req, res) {
-    return res.redirect('/portal');
-});
+// app.get('/', function (req, res) {
+//     return res.redirect('/portal');
+// });
 
 app.use(compression());
 
-app.use('/portal', express.static(path.resolve(path.join(__dirname, deployFolder))));
+app.use('/', express.static(path.resolve(path.join(__dirname, deployFolder))));
 
 app.set('view engine', 'html');
 app.set('views', path.join(rootPath, deployFolder));
