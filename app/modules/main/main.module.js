@@ -2,7 +2,8 @@
     app.MainModule = ng.core
         .NgModule({
             imports: [
-                ng.platformBrowser.BrowserModule
+                ng.platformBrowser.BrowserModule,
+                ng.http.HttpModule
             ],
             declarations: [
                 app.MainComponent,
