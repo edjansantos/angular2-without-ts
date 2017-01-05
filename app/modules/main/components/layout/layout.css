@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');	
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 html, body {
 	margin:0;
@@ -14,9 +14,11 @@ html {
 	color:#fff;
 }
 
+
 .main.container {
 	margin-top:61px;
 }
 
 .main.container h1 {
 }
+

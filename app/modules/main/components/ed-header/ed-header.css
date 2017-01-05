@@ -14,3 +14,7 @@ header .title {
     width: auto;
     display: inline-block;
 }
+
+.menu-hamburguer {
+    fill:#fff;
+}

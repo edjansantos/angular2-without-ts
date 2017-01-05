@@ -2,6 +2,7 @@
     app.MainModule = ng.core
         .NgModule({
             imports: [
+                //ng.platformBrowser.DomSanitizer,
                 ng.platformBrowser.BrowserModule,
                 ng.http.HttpModule
             ],
@@ -16,7 +17,7 @@
             ]
         })
         .Class({
-            constructor: function () {
+            constructor: function MainModule() {
             }
         });
 })(window.app || (window.app = {}));
